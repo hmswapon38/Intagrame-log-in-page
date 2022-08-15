@@ -1,0 +1,109 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    background-color: rgb(233, 241, 241);
+}
+
+
+.elements{
+    width: 350px;
+    background-color: white;
+    margin-top: 100px;
+    padding: 10px 10px 20px 10px;
+    border: 0.5px solid #cacbcc ;
+}
+.img-s{
+    margin-top: 5px;
+}
+input{
+    width: 250px;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 0.1px solid #a09f9f;
+    opacity: 0.8;
+    background-color: #f2f5f7;
+}
+button{
+    width: 275px;
+    font-size: 18px;
+    padding: 7px;
+    border-radius: 3px;
+    border: 0.1px solid #a09f9f;
+    background-color: rgb(145, 187, 241);
+    color: white;
+}
+
+.hr-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hr1{
+    width: 120px;
+    float: left;
+    
+}
+.hr2{
+    width: 120px;
+    float: left;
+}
+.or-1{
+    float: left;
+    margin: 0px 10px 0px 10px;
+}
+
+
+
+
+.facebook-logos{
+    float: left;
+    margin-left: 40px;
+}
+
+.facebook-writes{
+    float: left;
+    margin-left: 110px;
+    margin-top: -20px;
+}
+ .link-facebooks{
+    margin-top: 15px;
+   
+} 
+a{
+    text-decoration: none;
+
+}
+
+.f-a{
+     color: black;
+}
+
+.sndcontainer{
+   width: 320px;
+   background-color: white;
+   padding: 25px;
+   margin-top: 10px;
+   border: 0.5px solid #cacbcc ;
+}
+.sndcontainer a{
+    color: rgb(55, 185, 228);
+}
+.facebook-writes a{
+    color: rgb(55, 185, 228);
+}
+
+button:hover{
+    cursor: pointer;
+    
+}
